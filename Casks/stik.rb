@@ -1,9 +1,9 @@
 cask "stik" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.7.4"
-  sha256 arm:   "9c5f80c13ce97fa408956199f5f40327d6daba6f9f37e133713e87eb23f62082",
-         intel: ""
+  version "0.7.5"
+  sha256 arm:   "ce2924948ecedfcfb9170d8f5ddf024d79aa25be3e3108e1fa874d9278741abf",
+         intel: "1ca4e4001f9396a6902db9f302c4ff8a927756d052159b3086fe77d5c40bb5ee"
 
   url "https://github.com/0xMassi/stik_app/releases/download/v#{version}/Stik_#{version}_#{arch}.dmg"
   name "Stik"
